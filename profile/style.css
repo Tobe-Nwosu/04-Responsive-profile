@@ -1,0 +1,86 @@
+/* headers */
+.headone{color: rgb(45, 96, 6);
+  font-family: 'Rubik Dirt', cursive;
+  }
+
+.header-follow{ color: rgb(45, 96, 6);
+}
+
+
+.header-dev{ color:rgb(45, 96, 6);
+}
+
+/* paragraphs */
+p{ font-family: 'Alumni Sans Inline One', cursive;
+  text-align: center;
+
+}
+
+/* body */
+
+body{background-color:#FFFFE0
+}
+
+/* images */
+.img {height: 9em;
+  border-radius: 15em;
+}
+
+/* hover */
+
+a:hover{
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;}
+
+  a:hover {
+    box-shadow: inset 100px 0 0 0 black;
+    color: white;
+  }
+
+  /* div  */
+.body-div { text-align: center;
+
+}
+
+.header-link-div{ text-align: center;
+  margin-top: 5em;
+
+}
+
+.ul-div { list-style-position: inside;
+  text-align: center;
+  margin-right: 3.5em;
+
+}
+
+/* containers */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* border  */
+.solid{border-style: solid;
+margin-left: 20em;
+margin-right: 20em;
+padding-bottom: 2em;
+}
+
+/* signs */
